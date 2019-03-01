@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lyf</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="menuIdentify">I D E N T I F Y</string>
+    <string name="menuBrowse">B R O W S E</string>
+    <string name="menuLocate">L O C A T E</string>
+    <string name="menuAbout">A B O U T</string>
+</resources>
