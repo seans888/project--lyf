@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout main container -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#fbfbfb"
+    android:orientation="vertical"
+    tools:context=".FullscreenActivity">
+
+    <!-- LinearLayout for "Identity"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28544b"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textIdentify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menuIdentify"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- End of "Identify"-->
+
+    <!-- LinearLayout for "Browse"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#acbd86"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textBrowse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menuBrowse"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- End of "Browse"-->
+
+    <!-- LinearLayout for "Locate"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd6a0"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textLocate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menuLocate"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- End of "Locate"-->
+
+    <!-- LinearLayout for "About"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffa06f"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menuAbout"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- End of "About"-->
+
+</LinearLayout>
+
+    <!-- End of main container -->
