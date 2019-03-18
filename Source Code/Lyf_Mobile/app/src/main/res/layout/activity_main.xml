@@ -6,8 +6,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:fitsSystemWindows="true">
+    <!-- tools:openDrawer="start"  (Remove this as comment to activate the drawer but retain tools:opeDrawer="start") -->
 
     <include
         layout="@layout/app_bar_main"
@@ -23,97 +23,96 @@
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_height="match_parent"
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#fbfbfb"
         android:orientation="vertical">
 
-    <!-- LinearLayout for "Identity"-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#28544b"
-        android:orientation="vertical"
-        android:layout_weight="1">
-
-        <TextView
-            android:id="@+id/textIdentify"
+        <!-- LinearLayout for "Identity"-->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/cocogoose_pro_trial"
-            android:gravity="center"
-            android:text="@string/menuIdentify"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
-    </LinearLayout>
-    <!-- End of "Identify"-->
+            android:background="#28544b"
+            android:orientation="vertical">
 
-    <!-- LinearLayout for "Browse"-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#acbd86"
-        android:orientation="vertical"
-        android:layout_weight="1">
+            <TextView
+                android:id="@+id/textIdentify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/cocogoose_pro_trial"
+                android:gravity="center"
+                android:text="@string/menuIdentify"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- End of "Identify"-->
 
-        <TextView
-            android:id="@+id/textBrowse"
+        <!-- LinearLayout for "Browse"-->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/cocogoose_pro_trial"
-            android:gravity="center"
-            android:text="@string/menuBrowse"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
-    </LinearLayout>
-    <!-- End of "Browse"-->
+            android:background="#acbd86"
+            android:orientation="vertical">
 
-    <!-- LinearLayout for "Locate"-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffd6a0"
-        android:orientation="vertical"
-        android:layout_weight="1">
+            <TextView
+                android:id="@+id/textBrowse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/cocogoose_pro_trial"
+                android:gravity="center"
+                android:text="@string/menuBrowse"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- End of "Browse"-->
 
-        <TextView
-            android:id="@+id/textLocate"
+        <!-- LinearLayout for "Locate"-->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/cocogoose_pro_trial"
-            android:gravity="center"
-            android:text="@string/menuLocate"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
-    </LinearLayout>
-    <!-- End of "Locate"-->
+            android:background="#ffd6a0"
+            android:orientation="vertical">
 
-    <!-- LinearLayout for "About"-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffa06f"
-        android:orientation="vertical"
-        android:layout_weight="1">
+            <TextView
+                android:id="@+id/textLocate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/cocogoose_pro_trial"
+                android:gravity="center"
+                android:text="@string/menuLocate"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!-- End of "Locate"-->
 
-        <TextView
-            android:id="@+id/textAbout"
+        <!-- LinearLayout for "About"-->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/cocogoose_pro_trial"
-            android:gravity="center"
-            android:text="@string/menuAbout"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
-    </LinearLayout>
+            android:background="#ffa06f"
+            android:orientation="vertical">
 
-    <!-- End of "About"-->
+            <TextView
+                android:id="@+id/textAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/cocogoose_pro_trial"
+                android:gravity="center"
+                android:text="@string/menuAbout"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- End of "About"-->
 
     </LinearLayout>
 
