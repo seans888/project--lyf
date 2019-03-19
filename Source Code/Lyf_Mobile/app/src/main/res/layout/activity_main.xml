@@ -29,7 +29,13 @@
         android:background="#fbfbfb"
         android:orientation="vertical">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbfbfb"
+        android:orientation="vertical">
         <!-- LinearLayout for "Identity"-->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,24 +46,47 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:src="@mipmap/identify"
                 android:layout_weight="1"
-                android:src="@mipmap/Identify"
                 android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#28544b"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textIdentify"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:fontFamily="@font/cocogoose_pro_trial"
                 android:gravity="center"
                 android:text="@string/menuIdentify"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </LinearLayout>
+    </LinearLayout>
+
         <!-- End of "Identify"-->
 
         <!-- LinearLayout for "Browse"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbfbfb"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/browse"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,25 +96,32 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/browse"
                 android:layout_weight="1"
-                android:src="@mipmap/Browse"
-                android:gravity="center"/>
+                android:gravity="left"/>
 
             <TextView
                 android:id="@+id/textBrowse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:fontFamily="@font/cocogoose_pro_trial"
                 android:gravity="center"
                 android:text="@string/menuBrowse"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </LinearLayout>
+    </LinearLayout>
         <!-- End of "Browse"-->
 
         <!-- LinearLayout for "Locate"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbfbfb"
+        android:orientation="vertical" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,10 +131,10 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@mipmap/Locate"
-                android:gravity="center"/>
+                android:layout_height="match_parent"
+                android:src="@mipmap/locate"
+                android:layout_weight="2"
+                android:gravity="left"/>
 
             <TextView
                 android:id="@+id/textLocate"
@@ -111,9 +147,30 @@
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </LinearLayout>
+    </LinearLayout>
         <!-- End of "Locate"-->
 
         <!-- LinearLayout for "About"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbfbfb"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffd6a0"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/locate"
+            android:layout_weight="2"
+            android:gravity="left"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -123,23 +180,23 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/about"
                 android:layout_weight="1"
-                android:src="@mipmap/About"
-                android:gravity="center"/>
+                android:gravity="left"/>
 
             <TextView
                 android:id="@+id/textAbout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:fontFamily="@font/cocogoose_pro_trial"
                 android:gravity="center"
                 android:text="@string/menuAbout"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </LinearLayout>
-
+    </LinearLayout>
         <!-- End of "About"-->
 
     </LinearLayout>
