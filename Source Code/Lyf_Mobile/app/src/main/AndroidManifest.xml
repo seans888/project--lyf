@@ -18,8 +18,6 @@
         android:roundIcon="@mipmap/app_launcher_icon_lyf"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data
-            android:name="com.google.android.actions" />
 
         <activity
             android:name=".MainActivity"
