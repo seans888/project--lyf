@@ -1,0 +1,10 @@
+web
+display location/result
+display mislocation result
+respond to report
+
+app
+browse location
+creating mislocation
+display not found
+
