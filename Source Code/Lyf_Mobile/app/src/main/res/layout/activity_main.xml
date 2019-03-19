@@ -37,6 +37,13 @@
             android:background="#28544b"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/Identify"
+                android:gravity="center"/>
+
             <TextView
                 android:id="@+id/textIdentify"
                 android:layout_width="match_parent"
@@ -57,6 +64,13 @@
             android:layout_weight="1"
             android:background="#acbd86"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/Browse"
+                android:gravity="center"/>
 
             <TextView
                 android:id="@+id/textBrowse"
@@ -79,6 +93,13 @@
             android:background="#ffd6a0"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/Locate"
+                android:gravity="center"/>
+
             <TextView
                 android:id="@+id/textLocate"
                 android:layout_width="match_parent"
@@ -99,6 +120,13 @@
             android:layout_weight="1"
             android:background="#ffa06f"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/About"
+                android:gravity="center"/>
 
             <TextView
                 android:id="@+id/textAbout"
