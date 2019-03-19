@@ -19,8 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/styles" />
+            android:name="com.google.android.actions" />
 
         <activity
             android:name=".MainActivity"
