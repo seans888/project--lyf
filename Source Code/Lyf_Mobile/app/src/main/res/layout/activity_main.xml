@@ -38,11 +38,11 @@
                 android:layout_weight="1">
 
                 <ImageView
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                      android:src="@mipmap/identify"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:src="@mipmap/identify"/>
 
                   <TextView
                       android:id="@+id/textIdentify"
