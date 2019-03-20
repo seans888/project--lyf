@@ -5,8 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
-    <!--tools:openDrawer="start">-->
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end">
 
     <include
         layout="@layout/app_bar_main"
@@ -22,7 +22,6 @@
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer">
 
-        <!-- Start of Main Container -->
     </android.support.design.widget.NavigationView>
 
     <LinearLayout
@@ -39,15 +38,29 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="28544b"
+            android:background="#28544b"
             android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logoIdentify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
                 android:id="@+id/textIdentify"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/textIdentify" />
+
+            <ImageView
+                android:id="@+id/buttonNextIdentify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
 
         <LinearLayout
@@ -55,8 +68,15 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="acbd86"
+            android:background="#acbd86"
             android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logoBrowse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
                 android:id="@+id/textBrowse"
@@ -64,6 +84,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/textBrowse" />
+
+            <ImageView
+                android:id="@+id/buttonNextBrowse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
 
         <LinearLayout
@@ -71,8 +98,15 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="ffd6a0"
+            android:background="#ffd6a0"
             android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logoLocate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
                 android:id="@+id/textLocate"
@@ -80,6 +114,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/textLocate" />
+
+            <ImageView
+                android:id="@+id/buttonNextLocate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,8 +128,15 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="ffa06f"
+            android:background="#ffa06f"
             android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logoAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
                 android:id="@+id/textAbout"
@@ -96,7 +144,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/textAbout" />
+
+            <ImageView
+                android:id="@+id/buttonNextAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
     </LinearLayout>
+
+    <!-- Start of Main Container -->
 
 </android.support.v4.widget.DrawerLayout>
