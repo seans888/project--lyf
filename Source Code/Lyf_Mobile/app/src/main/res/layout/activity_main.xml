@@ -24,117 +24,82 @@
         app:menu="@menu/activity_main_drawer" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#fbfbfb"
         android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fbfbfb"
-        android:orientation="vertical">
-        <!-- LinearLayout for "Identity"-->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#28544b"
-            android:orientation="vertical">
-
-            <ImageView
+    <!-- LinearLayout for "Identity"-->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/identify"
-                android:layout_weight="1"
-                android:gravity="center"/>
+                android:background="#28544b"
+                android:orientation="vertical"
+                android:layout_weight="1">
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#28544b"
-            android:orientation="vertical">
+                <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                      android:src="@mipmap/identify"/>
 
-            <TextView
-                android:id="@+id/textIdentify"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="@font/cocogoose_pro_trial"
-                android:gravity="center"
-                android:text="@string/menuIdentify"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-        </LinearLayout>
-    </LinearLayout>
-
-        <!-- End of "Identify"-->
+                  <TextView
+                      android:id="@+id/textIdentify"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:fontFamily="@font/cocogoose_pro_trial"
+                      android:gravity="center"
+                      android:text="@string/menuIdentify"
+                      android:textColor="@android:color/white"
+                      android:textSize="18sp" />
+              </LinearLayout>
+          <!-- End of "Identify"-->
 
         <!-- LinearLayout for "Browse"-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fbfbfb"
-        android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/browse"
-            android:layout_weight="1"
-            android:gravity="center"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#acbd86"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@mipmap/browse"
-                android:layout_weight="1"
-                android:gravity="left"/>
-
-            <TextView
-                android:id="@+id/textBrowse"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="@font/cocogoose_pro_trial"
-                android:gravity="center"
-                android:text="@string/menuBrowse"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-        </LinearLayout>
-    </LinearLayout>
-        <!-- End of "Browse"-->
+                android:background="#acbd86"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+               <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:src="@mipmap/browse" />
+
+                   <TextView
+                       android:id="@+id/textBrowse"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:fontFamily="@font/cocogoose_pro_trial"
+                       android:gravity="center"
+                       android:text="@string/menuBrowse"
+                       android:textColor="@android:color/white"
+                       android:textSize="18sp" />
+               </LinearLayout>
+
+           <!-- End of "Browse"-->
 
         <!-- LinearLayout for "Locate"-->
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fbfbfb"
-        android:orientation="vertical" />
+        android:layout_height="wrap_content"
+        android:background="#28544b"
+        android:orientation="vertical"
+        android:layout_weight="1">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#ffd6a0"
-            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="match_parent"
+           <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@mipmap/locate"
-                android:layout_weight="2"
-                android:gravity="left"/>
+                android:src="@mipmap/locate" />
 
             <TextView
                 android:id="@+id/textLocate"
@@ -147,59 +112,38 @@
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
         </LinearLayout>
-    </LinearLayout>
+
         <!-- End of "Locate"-->
 
         <!-- LinearLayout for "About"-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fbfbfb"
-        android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:background="#ffd6a0"
-        android:orientation="vertical">
+        android:orientation="vertical"
+    android:layout_weight="1">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@mipmap/locate"
-            android:layout_weight="2"
-            android:gravity="left"/>
+           <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/about" />
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textAbout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#ffa06f"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@mipmap/about"
-                android:layout_weight="1"
-                android:gravity="left"/>
-
-            <TextView
-                android:id="@+id/textAbout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="@font/cocogoose_pro_trial"
-                android:gravity="center"
-                android:text="@string/menuAbout"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-        </LinearLayout>
+            android:fontFamily="@font/cocogoose_pro_trial"
+            android:gravity="center"
+            android:text="@string/menuAbout"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
     </LinearLayout>
-        <!-- End of "About"-->
 
-    </LinearLayout>
+    <!-- End of "About"-->
+
+</LinearLayout>
 
     <!-- End of main container -->
 
