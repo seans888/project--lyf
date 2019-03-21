@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:openDrawer="end">
-
+<!--
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
@@ -23,11 +23,11 @@
         app:menu="@menu/activity_main_drawer">
 
     </android.support.design.widget.NavigationView>
-
+-->
     <LinearLayout
         android:id="@+id/MainContainer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#ffffff"
         android:orientation="vertical">
 
@@ -35,7 +35,7 @@
 
         <LinearLayout
             android:id="@+id/LinearIdentify"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#28544b"
@@ -43,7 +43,7 @@
 
             <ImageView
                 android:id="@+id/logoIdentify"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/ic_menu_manage" />
@@ -51,13 +51,13 @@
             <TextView
                 android:id="@+id/textIdentify"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/textIdentify" />
 
             <ImageView
                 android:id="@+id/buttonNextIdentify"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/ic_menu_send" />
@@ -65,7 +65,7 @@
 
         <LinearLayout
             android:id="@+id/LinearBrowse"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#acbd86"
@@ -95,7 +95,7 @@
 
         <LinearLayout
             android:id="@+id/LinearLocate"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#ffd6a0"
@@ -125,7 +125,7 @@
 
         <LinearLayout
             android:id="@+id/LinearAbout"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#ffa06f"
