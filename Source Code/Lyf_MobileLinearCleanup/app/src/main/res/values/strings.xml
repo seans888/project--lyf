@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lyf_Mobile(LinearCleanup</string>
+    <string name="app_name">Lyf_Mobile(LinearCleanup)</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -10,4 +10,12 @@
     <string name="textBrowse">B R O W S E</string>
     <string name="textLocate">L O C A T E</string>
     <string name="textAbout">A B O U T</string>
+    <string name="logoIdentify">The image logo of "Identify" in the main menu</string>
+    <string name="buttonNextIdentify">The " selection > " image logo of "Identify" in the main menu</string>
+    <string name="logoBrowse">The image logo of "Browse" in the main menu</string>
+    <string name="buttonNextBrowse">The " selection > " image logo of "Browse" in the main menu</string>
+    <string name="logoLocate">The image logo of "Locate" in the main menu</string>
+    <string name="buttonNextLocate">The " selection > " image logo of "Locate" in the main menu</string>
+    <string name="logoAbout">The image logo of "About" in the main menu</string>
+    <string name="buttonNextAbout">The " selection > " image logo of "About" in the main menu</string>
 </resources>

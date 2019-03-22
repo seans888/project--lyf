@@ -46,6 +46,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/logoIdentify"
                 app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
@@ -53,6 +56,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="@string/textIdentify" />
 
             <ImageView
@@ -60,6 +65,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/buttonNextIdentify"
                 app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
 
@@ -76,6 +84,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/logoBrowse"
                 app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
@@ -83,6 +94,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="@string/textBrowse" />
 
             <ImageView
@@ -90,6 +103,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/buttonNextBrowse"
                 app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
 
@@ -105,7 +121,10 @@
                 android:id="@+id/logoLocate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/logoLocate"
                 app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
@@ -113,13 +132,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="@string/textLocate" />
 
             <ImageView
                 android:id="@+id/buttonNextLocate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/buttonNextLocate"
                 app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
 
@@ -135,7 +159,10 @@
                 android:id="@+id/logoAbout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/logoAbout"
                 app:srcCompat="@drawable/ic_menu_manage" />
 
             <TextView
@@ -143,13 +170,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="@string/textAbout" />
 
             <ImageView
                 android:id="@+id/buttonNextAbout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:contentDescription="@string/buttonNextAbout"
                 app:srcCompat="@drawable/ic_menu_send" />
         </LinearLayout>
     </LinearLayout>
