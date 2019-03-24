@@ -1,15 +1,13 @@
 <resources>
     <string name="app_name">Lyf_MobileLogin</string>
     <string name="titleApp_name">Lyf</string>
-    <string name="welcome_back">Welcome Back!</string>
-    <string name="stringInput_user">Username or email</string>
-    <string name="stringInput_password">Password</string>
-    <string name="stringInput_signUp">Sign up</string>
-    <string name="skip">Skip</string>
-    <string name="text_Login">Login</string>
-    <string name="forget_password">Forgot Password?</string>
-    <string name="read_it_together">Read it together</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-
+    <string name="Log_In">Log In</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="Email">Username or Email</string>
+    <string name="Password">Password</string>
+    <string name="RememberMe">Remember Me</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="AppLogoDesc">App Logo in Log In Screen</string>
+    <string name="Log_InDesc">Log In Input EditText</string>
+    <string name="PasswordDesc">Password Input EditText</string>
 </resources>
