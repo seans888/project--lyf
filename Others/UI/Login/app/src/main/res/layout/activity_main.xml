@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:fontFamily="@font/cocogoosecondensed_ultralight"
         android:inputType="text"
         android:padding="15dp"
         android:background="@drawable/shapeemail"
@@ -28,7 +29,6 @@
         android:textColor="@color/white"
         android:textColorHint="@color/WhiteSmoke"
         android:textColorHighlight="@color/white"
-        android:fontFamily="@font/cocogoose_pro_ultralight_trial"
         android:importantForAutofill="no"
         tools:targetApi="o"/>
 
@@ -45,7 +45,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/WhiteSmoke"
         android:textColorHighlight="@color/white"
-        android:fontFamily="@font/cocogoose_pro_ultralight_trial"
+        android:fontFamily="@font/cocogoosecondensed_ultralight"
         android:importantForAutofill="no"
         tools:targetApi="o"/>
 
@@ -57,8 +57,8 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/cocogoosecondensed_ultralight"
             android:text="@string/RememberMe"
-            android:fontFamily="@font/cocogoose_pro_ultralight_trial"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp"
@@ -79,7 +79,7 @@
             android:drawableStart="@drawable/ic_lock_open_black_24dp"
             android:drawablePadding="6dp"
             android:padding="4dp"
-            android:fontFamily="@font/cocogoose_pro_ultralight_trial"/>
+            android:fontFamily="@font/cocogoosecondensed_ultralight"/>
 
 
     </LinearLayout>
@@ -96,7 +96,7 @@
         android:layout_marginTop="0dp"
         android:background="@drawable/shapelogin"
         android:textColor="@color/white"
-        android:fontFamily="@font/cocogoose_pro_ultralight_trial"/>
+        android:fontFamily="@font/cocogoosecondensed_ultralight"/>
 
     <Button
         android:layout_width="match_parent"
@@ -110,6 +110,6 @@
         android:layout_marginTop="0dp"
         android:background="@drawable/shapesignup"
         android:textColor="@color/white"
-        android:fontFamily="@font/cocogoose_pro_ultralight_trial"/>
+        android:fontFamily="@font/cocogoosecondensed_ultralight"/>
 
 </LinearLayout>
