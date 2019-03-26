@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lyf_RegisterScreen</string>
+    <string name="AppLogoDesc">App Logo in Log In Screen</string>
+    <string name="stringCreateName">Name</string>
+    <string name="stringCreateEmail">Email</string>
+    <string name="stringCreatePassword">Password</string>
+    <string name="stringCreateAccount">Create Account</string>
+    <string name="stringAlreadyExistingUser">Already a member? Login</string>
 </resources>
