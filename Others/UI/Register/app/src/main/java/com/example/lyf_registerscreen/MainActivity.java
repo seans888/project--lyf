@@ -1,9 +1,12 @@
 package com.example.lyf_registerscreen;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.design.widget.*;
+import android.content.*;
 import android.os.Bundle.*;
+import android.text.method.*;
 import android.widget.*;
 import android.view.*;
 import android.content.*;
@@ -22,5 +25,8 @@ public class MainActivity extends AppCompatActivity {
         nameWrapper.setHint("Name");
         emailWrapper.setHint("Email");
         passwordWrapper.setHint("Password");
+
+
+
     }
 }
