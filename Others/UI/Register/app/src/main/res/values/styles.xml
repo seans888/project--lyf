@@ -9,14 +9,11 @@
     </style>
 
 
-    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+    <style name="SimpleWhite" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/white</item>
         <item name="colorControlNormal">@color/white</item>
-
-        //added attributes
-        <item name="colorControlActivated">@color/colorPrimary</item>
-        <item name="colorControlHighlight">@color/colorPrimary</item>
-
+        <item name="colorControlActivated">@color/lyfDefaultGreen</item>
+        <item name="colorControlHighlight">@color/white</item>
     </style>
 
 </resources>
