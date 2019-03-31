@@ -1,0 +1,4 @@
+#Sun Mar 31 15:07:19 SGT 2019
+base.0=D\:\\project--lyf\\Source Code\\app\\LyfVer1\\Lyf_App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
