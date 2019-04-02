@@ -35,4 +35,15 @@
 
     <string name="CreateAccount">Create Account</string>
     <string name="AlreadyExistingUser">Already a member? Login</string>
+
+
+    <!-- activity_tutorial.xml -->
+    <string name="Instructions">Instructions\nfor Identifying</string>
+    <string name="instruct_1">Pluck leaf from plant to identify.</string>
+    <string name="instruct_2">Put leaf in palm of hand</string>
+    <string name="instruct_3">Press capture button to identify</string>
+    <string name="imageView">Not yet known</string>
+    <string name="imageButton">Not yet known</string>
+    <!-- end of activity_tutorial.xml -->
+
 </resources>

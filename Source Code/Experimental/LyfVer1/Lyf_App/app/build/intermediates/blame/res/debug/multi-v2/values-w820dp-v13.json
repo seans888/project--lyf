@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rams\\Pictures\\project--lyf\\Source Code\\app\\LyfVer1\\Lyf_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\project--lyf\\Source Code\\Experimental\\LyfVer1\\Lyf_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rams\\Pictures\\project--lyf\\Source Code\\app\\LyfVer1\\Lyf_App\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\project--lyf\\Source Code\\Experimental\\LyfVer1\\Lyf_App\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
