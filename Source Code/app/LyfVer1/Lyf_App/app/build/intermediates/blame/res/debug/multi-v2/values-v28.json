@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Jamie Files\\SysAdd\\project--lyf\\Source Code\\app\\LyfVer1\\Lyf_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\Rams\\Pictures\\project--lyf\\Source Code\\app\\LyfVer1\\Lyf_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gahallon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha3.aar\\16b8091d0d86c977d65861e7daebe68f\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Rams\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha3.aar\\31859a67775612874e2d8e73dc63d133\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
