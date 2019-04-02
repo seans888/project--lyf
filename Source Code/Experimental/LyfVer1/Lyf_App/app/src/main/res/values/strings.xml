@@ -46,4 +46,10 @@
     <string name="imageButton">Not yet known</string>
     <!-- end of activity_tutorial.xml -->
 
+    <!-- activity_about.xml -->
+    <string name="AboutImageLogo">The Leaf Logo of Lyf</string>
+    <string name="AboutLyf">About</string>
+    <string name="abouts">The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.</string>
+    <!-- end of activity_tutorial.xml -->
+
 </resources>
