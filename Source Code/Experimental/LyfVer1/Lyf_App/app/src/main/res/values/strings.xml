@@ -52,4 +52,13 @@
     <string name="abouts">The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.</string>
     <!-- end of activity_tutorial.xml -->
 
+    <!-- activity_result -->
+    <string name="ResultTitle">Result</string>
+    <string name="PlantNameResult">Plant Name</string>
+    <string name="FirstImageResult">First Image Result</string>
+    <string name="ButtonBesidePlantName">Button image beside plant name</string>
+    <string name="SecondImageResult">Second Image Result</string>
+    <string name="imageButtonInResult">Not yet known</string>
+    <!-- end of activity_result -->
+
 </resources>

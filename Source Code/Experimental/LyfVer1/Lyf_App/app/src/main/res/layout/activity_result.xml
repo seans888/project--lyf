@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#28544B"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:layout_marginBottom="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="72sp"
+        android:layout_weight="1"
+        android:src="@drawable/drawable_identify"
+        android:paddingStart="0dp"
+        android:paddingEnd="-90dp"
+        android:contentDescription="@string/FirstImageResult" />
+
+    <TextView
+        android:id="@+id/activity_tutorial_title"
+        android:layout_width="wrap_content"
+        android:layout_height="72sp"
+        android:layout_weight="1"
+        android:fontFamily="@font/cocogoosefont"
+        android:text="@string/ResultTitle"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:paddingStart="-90dp"
+        android:paddingEnd="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/resultImage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/sambongleaf"
+        android:contentDescription="@string/FirstImageResult"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/text_PlantName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/brandonfont"
+            android:text="@string/PlantNameResult"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/Black"
+            android:textSize="28sp"
+            android:paddingStart="0dp"
+            android:paddingEnd="-75dp"/>
+
+        <ImageView
+            android:id="@+id/besidePlantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            tools:srcCompat="@drawable/menu_arrow_black"
+            android:paddingStart="-115dp"
+            android:paddingEnd="0dp"
+            android:contentDescription="@string/ButtonBesidePlantName"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/resultimage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/sambongleaf"
+            android:contentDescription="@string/SecondImageResult"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btnCheckInResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@color/transparent"
+        app:srcCompat="@drawable/check"
+        android:contentDescription="@string/imageButtonInResult"/>
+    </LinearLayout>
+</LinearLayout>
